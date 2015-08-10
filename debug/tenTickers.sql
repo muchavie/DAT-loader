@@ -1,0 +1,12 @@
+begin transaction;
+insert into Ticker (ticker_name) values ('ORCL');
+insert into Ticker (ticker_name) values ('IBM');
+insert into Ticker (ticker_name) values ('MSFT');
+insert into Ticker (ticker_name) values ('T');
+insert into Ticker (ticker_name) values ('CSCO');
+insert into Ticker (ticker_name) values ('HPQ');
+insert into Ticker (ticker_name) values ('YHOO');
+insert into Ticker (ticker_name) values ('S');
+insert into Ticker (ticker_name) values ('AAPL');
+insert into Ticker (ticker_name) values ('INTC');
+end transaction;

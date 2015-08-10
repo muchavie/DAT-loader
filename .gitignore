@@ -1,0 +1,15 @@
+analytic.db-journal
+scratch
+analysis.db
+analytic.db
+backup.db
+loader
+timeSeries.db
+option.sql
+ticker.sql
+loadTicker.sql
+cdf.so
+odin.log
+huginn.js
+muninn.js
+.gitignore.swp
