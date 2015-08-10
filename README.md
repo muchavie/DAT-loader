@@ -69,3 +69,9 @@ packages.
 
 
     node odin.js
+
+XLOADER
+=======
+Syncs analytic mysql and sqlite databases
+
+    node xloader.js
