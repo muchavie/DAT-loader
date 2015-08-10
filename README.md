@@ -33,4 +33,22 @@ add the line below to you ~/.sqliterc file
 Using from SQL
 --------------
     select usDate from table order by cdf(usDate);
-    
+
+
+Loader
+======
+Utility which pulls data from a sqlite3 times eries database
+created from CVS files to a normalized analytic star schema
+
+files
+-----
+* Makefile
+* loader.c
+
+building
+--------
+    make loader
+
+
+running
+-------
