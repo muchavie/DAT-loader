@@ -53,3 +53,19 @@ building
 running
 -------
     ./loader
+
+ODIN
+====
+Uses YQL to plull data from yahoo finance and store this data in
+StockPrice table.  This script plugs our data gap where our option
+data in timeSeries.db ends before updateStockPrice.js up and
+running on ohm.  Eventually odin will be modified to just
+to do updates after trading closes on trading days.
+
+Requires
+--------
+nodeJS running time installed on host machine.   see odin.js for required
+packages.
+
+
+    node odin.js
