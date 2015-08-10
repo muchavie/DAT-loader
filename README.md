@@ -52,3 +52,4 @@ building
 
 running
 -------
+    ./loader
