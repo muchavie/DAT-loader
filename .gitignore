@@ -9,6 +9,7 @@ option.sql
 ticker.sql
 loadTicker.sql
 cdf.so
+cdf.o
 odin.log
 huginn.js
 muninn.js
